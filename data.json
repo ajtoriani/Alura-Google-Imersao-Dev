@@ -1,0 +1,203 @@
+[ 
+    { 
+        "nome": "Max Verstappen", 
+        "equipe": "Red Bull Racing", 
+        "pais": "Holanda", 
+        "podios": "124",
+        "link": "https://www.formula1.com/en/drivers/max-verstappen.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/1col/image.png",
+        "tags": ["Max Verstappen", "Red Bull", "Holanda", "Campeão", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Lewis Hamilton", 
+        "equipe": "Ferrari", 
+        "pais": "Reino Unido", 
+        "podios": "202", 
+        "link": "https://www.formula1.com/en/drivers/lewis-hamilton.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/1col/image.png",
+        "tags": [
+        "Lewis Hamilton", 
+        "Ferrari", 
+        "Reino Unido", 
+        "Recordista", 
+        "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Charles Leclerc", 
+        "equipe": "Ferrari", 
+        "pais": "Mônaco", 
+        "podios": "50",
+        "link": "https://www.formula1.com/en/drivers/charles-leclerc.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/1col/image.png",
+        "tags": ["Charles Leclerc", "Ferrari", "Mônaco", "Pole", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Lando Norris", 
+        "equipe": "McLaren", 
+        "pais": "Reino Unido", 
+        "podios": "43",
+        "link": "https://www.formula1.com/en/drivers/lando-norris.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/1col/image.png",
+        "tags": ["Lando Norris", "McLaren", "Reino Unido", "Ascendente", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Oscar Piastri", 
+
+        "equipe": "McLaren", 
+        "pais": "Austrália", 
+        "podios": "24",
+        "link": "https://www.formula1.com/en/drivers/oscar-piastri.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png.transform/1col/image.png",
+        "tags": ["Oscar Piastri", "McLaren", "Austrália", "Novato", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "George Russell", 
+
+        "equipe": "Mercedes", 
+        "pais": "Reino Unido", 
+        "podios": "23",
+        "link": "https://www.formula1.com/en/drivers/george-russell.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/1col/image.png",
+        "tags": ["George Russell", "Mercedes", "Reino Unido", "Promissor", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Andrea Kimi Antonelli", 
+
+        "equipe": "Mercedes", 
+        "pais": "Itália", 
+        "podios": "2",
+        "link": "https://www.formula1.com/en/drivers/kimi-antonelli",
+        "foto": "https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5829.png&w=350&h=254",
+        "tags": ["Andrea Kimi Antonelli", "Mercedes", "Itália", "Estreante", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Carlos Sainz", 
+
+        "equipe": "Williams", 
+        "pais": "Espanha", 
+        "podios": "28",
+        "link": "https://www.formula1.com/en/drivers/carlos-sainz.html",
+         "foto": "https://www.formula1.com/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/1col/image.png",
+         "tags": ["Carlos Sainz", "Williams", "Espanha", "Espanhol", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Alex Albon", 
+
+        "equipe": "Williams", 
+        "pais": "Tailândia", 
+        "podios": "2",
+        "link": "https://www.formula1.com/en/drivers/alexander-albon.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png.transform/1col/image.png",
+        "tags": ["Alex Albon", "Williams", "Tailândia", "Tailandês", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Fernando Alonso", 
+
+        "equipe": "Aston Martin", 
+        "pais": "Espanha", 
+        "podios": "106",
+        "link": "https://www.formula1.com/en/drivers/fernando-alonso.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png.transform/1col/image.png",
+        "tags": ["Fernando Alonso", "Aston Martin", "Espanha", "Veterano", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Lance Stroll", 
+
+        "equipe": "Aston Martin", 
+        "pais": "Canadá", 
+        "podios": "3",
+        "link": "https://www.formula1.com/en/drivers/lance-stroll.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png.transform/1col/image.png",
+        "tags": ["Lance Stroll", "Aston Martin", "Canadá", "Canadense", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Pierre Gasly", 
+
+        "equipe": "Alpine", 
+        "pais": "França", 
+        "podios": "5",
+        "link": "https://www.formula1.com/en/drivers/pierre-gasly.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png.transform/1col/image.png",
+        "tags": ["Pierre Gasly", "Alpine", "França", "Francês", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Franco Colapinto", 
+
+        "equipe": "Alpine", 
+        "pais": "Argentina", 
+        "podios": "0",
+        "link": "https://www.formula1.com/en/drivers/franco-colapinto.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/F/FRACOL01_Franco_Colapinto/fracol01.png.transform/1col/image.png",
+        "tags": ["Franco Colapinto", "Alpine", "Argentina", "Argentino", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Yuki Tsunoda", 
+
+        "equipe": "Red Bull Racing", 
+        "pais": "Japão", 
+        "podios": "0",
+        "link": "https://www.formula1.com/en/drivers/yuki-tsunoda.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png.transform/1col/image.png",
+        "tags": ["Yuki Tsunoda", "Red Bull Racing", "Japão", "Japonês", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Liam Lawson", 
+
+        "equipe": "Racing Bulls", 
+        "pais": "Nova Zelândia", 
+        "podios": "0",
+        "link": "https://www.formula1.com/en/drivers/liam-lawson.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png.transform/1col/image.png",
+        "tags": ["Liam Lawson", "Racing Bulls", "Nova Zelândia", "Neozelandês", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Isack Hadjar", 
+
+        "equipe": "Racing Bulls", 
+        "pais": "França", 
+        "podios": "1",
+        "link": "https://www.formula1.com/en/drivers/isack-hadjar.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png.transform/1col/image.png",
+        "tags": ["Isack Hadjar", "Racing Bulls", "França", "Francês", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Nico Hülkenberg", 
+
+        "equipe": "Sauber", 
+        "pais": "Alemanha", 
+        "podios": "1",
+        "link": "https://www.formula1.com/en/drivers/nico-hulkenberg.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png.transform/1col/image.png",
+        "tags": ["Nico Hülkenberg", "Sauber", "Alemanha", "Alemão", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Gabriel Bortoleto", 
+
+        "equipe": "Sauber", 
+        "pais": "Brasil", 
+        "podios": "0",
+        "link": "https://www.formula1.com/en/drivers/gabriel-bortoleto.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/G/GABBOR01_Gabriel_Bortoleto/gabbor01.png.transform/1col/image.png",
+        "tags": ["Gabriel Bortoleto", "Sauber", "Brasil", "Brasileiro", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Oliver Bearman", 
+
+        "equipe": "Haas", 
+        "pais": "Reino Unido", 
+        "podios": "0",
+        "link": "https://www.formula1.com/en/drivers/oliver-bearman.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png.transform/1col/image.png",
+        "tags": ["Oliver Bearman", "Haas", "Reino Unido", "Britânico", "Fórmula 1"]
+    }, 
+    { 
+        "nome": "Esteban Ocon", 
+
+        "equipe": "Haas", 
+        "pais": "França", 
+        "podios": "4",
+        "link": "https://www.formula1.com/en/drivers/esteban-ocon.html",
+        "foto": "https://www.formula1.com/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png.transform/1col/image.png",
+        "tags": ["Esteban Ocon", "Haas", "França", "Francês", "Fórmula 1"]
+    } 
+] 

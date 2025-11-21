@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    overflow-x: hidden; /* Previne scroll horizontal das animações */
+}
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background: black
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px #e10600;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.busca {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid #e10600;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.busca::placeholder {
+    color: #bbbbbb;
+}
+
+.busca:focus {
+    box-shadow: 0 0 15px #e10600;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.imgbanner {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.banner-logo {
+    width: 200px;
+    opacity: 0.8;
+}
+
+.imgbanner img {
+    width: 100%;
+    height: auto;
+    max-width: 1550px; /* Mantém o limite máximo da imagem original */
+}
+
+.imgbanner{
+   justify-self: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.stat-item h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #e10600;
+}
+
+.stat-item p {
+    font-size: 1rem;
+    color: #aaaaaa;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    gap: 20px;
+    padding: 40px 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaço entre a foto e as informações */
+    flex-grow: 1; /* Faz este container crescer para preencher o espaço */
+}
+
+.card-foto {
+    width: 100px; /* Largura fixa para a foto */
+    height: 100px;
+    border-radius: 50%; /* Deixa a foto redonda */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border: 2px solid #e10600;
+}
+
+.card-info {
+    flex: 1; /* Permite que o container de informações ocupe o espaço restante */
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #e10600;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 5px;
+}
+
+/* Adicione este novo seletor */
+/* Isso força o último parágrafo antes do link a ocupar todo o espaço restante */
+.card p:last-of-type {
+    flex-grow: 1;
+    margin-bottom: 15px; /* Adiciona uma margem inferior para não colar no botão */
+}
+
+
+.card a {
+    display: inline-block;
+    /* 'margin-top: auto;' já faz o trabalho de empurrar para baixo */
+    margin-top: auto; 
+    padding: 10px 15px;
+    background-color: #e10600;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #b80500;
+}
+
+.footer {
+     margin-top: 100px;
+    width: 100%; /* Largura total */
+    color: var(--tertiary-color); /* Cor do texto */
+    background-color: var(--bg-color); /* Cor de fundo */
+    padding: 15px 20px; /* Espaçamento interno */
+    border-top: 1px solid #3c4043; /* Borda superior */
+    font-size: 0.8rem; /* Tamanho da fonte */
+}
+
+.footer p {
+    color: #9aa0a6; /* Cor do texto */
+    margin-bottom: 10px; /* Margem inferior */
+    justify-self: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.footer-links {
+
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Habilita o layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 15px; /* Espaçamento entre os links */
+}
+
+.footer-links a {
+    color: white; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.2s; /* Transição suave para a cor */
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footer-links a:hover {
+    color: darkred; /* Muda a cor do link ao passar o mouse (variável não definida) */
+}
+
+
+@media (max-width: 768px) {
+    header { /* Estilos para telas com largura máxima de 768px */
+        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 1rem; /* Adiciona margem inferior */
+    }
+
+    div input { /* Estilos para o input em telas menores */
+        width: 90vw; /* Largura baseada na largura da viewport */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    main { /* Estilos para o main em telas menores */
+        padding: 0 1rem;
+        justify-self: center;
+        margin: 0 auto;
+        align-items: center;
+         /* Adiciona espaçamento lateral */
+    }
+
+    article:hover { /* Estilos para o article em telas menores */
+        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
+        max-width: 70%; /* Define uma largura máxima */
+        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    }
+
+    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    div input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+
+    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
+        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+
+    div { /* Estilos para a div do cabeçalho em telas muito pequenas */
+        display: flex; /* Habilita flexbox */
+        align-items: center; /* Alinha itens ao centro */
+        justify-content: center; /* Centraliza itens */
+        flex-direction: column; /* Organiza em coluna */
+        gap: 0.5rem; /* Espaçamento entre os itens */
+    }
+
+    .footer { /* Estilos para o rodapé em telas muito pequenas */
+        display: none; /* Oculta o rodapé */
+    }
+
+    button { /* Estilos para o botão em telas muito pequenas */
+        margin-top: 1rem; /* Adiciona margem no topo */
+    }
+}
