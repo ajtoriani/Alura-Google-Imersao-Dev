@@ -256,9 +256,8 @@ body {
 
 .news-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(700px, 1 fr 1 fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 25px;
-    margin: 0 auto;
 }
 
 .news-card {
@@ -286,7 +285,7 @@ body {
 
 .news-card img {
     width: 100%;
-    height: 180px;
+    height: 400px; /* Aumentei a altura para uma melhor proporção */
     object-fit: cover;
 }
 
@@ -294,7 +293,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    flex-grow: 2; /* Faz o conteúdo ocupar o espaço disponível */
+    flex-grow: 1; /* Faz o conteúdo ocupar o espaço disponível */
 }
 
 .news-content h2 {
