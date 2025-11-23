@@ -476,3 +476,54 @@ body {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
+
+
+  .accessibility-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 9999;
+    width: 180px;
+    font-family: Arial, sans-serif;
+  }
+
+  .accessibility-menu button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #e6e6e6;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .accessibility-menu button:hover {
+    background: #d3d3d3;
+  }
+
+  /* Alto contraste */
+  .high-contrast {
+    background: #000 !important;
+    color: #fff !important;
+  }
+
+  .high-contrast * {
+    background: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+  }
+
+  /* Fonte para dislexia */
+  @font-face {
+      font-family: "OpenDyslexic";
+      src: url("https://cdn.jsdelivr.net/gh/antijingoist/open-dyslexic/alternatives/OpenDyslexic-Regular.otf");
+  }
+
+  .dyslexia-font {
+    font-family: "OpenDyslexic" !important;
+  }
