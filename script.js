@@ -184,3 +184,43 @@ function mostrarResultado() {
         </article>
     `;
 }
+
+let fontSize = 100;
+  let contrastEnabled = false;
+  let dyslexiaEnabled = false;
+  let reduceMotionEnabled = false;
+
+  function increaseFont() {
+    fontSize += 10;
+    document.body.style.fontSize = fontSize + '%';
+  }
+
+  function decreaseFont() {
+    if (fontSize > 50) {
+      fontSize -= 10;
+      document.body.style.fontSize = fontSize + '%';
+    }
+  }
+
+  function toggleContrast() {
+    contrastEnabled = !contrastEnabled;
+    document.body.classList.toggle("high-contrast", contrastEnabled);
+  }
+
+  function toggleDyslexiaFont() {
+    dyslexiaEnabled = !dyslexiaEnabled;
+    document.body.classList.toggle("dyslexia-font", dyslexiaEnabled);
+  }
+
+  function toggleReduceMotion() {
+    reduceMotionEnabled = !reduceMotionEnabled;
+
+    if (reduceMotionEnabled) {
+      document.querySelectorAll("*").forEach(el => {
+        el.style.animation = "none";
+        el.style.transition = "none";
+      });
+    } else {
+      document.location.reload(); // restaura animações
+    }
+  }
