@@ -1,5 +1,5 @@
 # F1  Project AluraDev Google
-## TOP 50 Projetos da Imersão !
+## TOP 50 Melhores projetos da Imersão !
 
 Este é um projeto de frontend, desenvolvido como parte do curso da Alura, que exibe o grid de pilotos da temporada 2025 da Fórmula 1. Ele apresenta os pilotos em cards interativos, permitindo a busca por nome, equipe, país ou tags. O projeto conta com um design moderno e responsivo, utilizando animações suaves da biblioteca GSAP e um arquivo data.json para armazenar as informações dos pilotos.
 
