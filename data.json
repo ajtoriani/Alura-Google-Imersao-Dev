@@ -3,7 +3,7 @@
         "nome": "Max Verstappen", 
         "equipe": "Red Bull Racing", 
         "pais": "Holanda", 
-        "podios": "124",
+        "podios": "126",
         "link": "https://www.formula1.com/en/drivers/max-verstappen.html",
         "foto": "https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/1col/image.png",
         "tags": ["Max Verstappen", "Red Bull", "Holanda", "Campeão", "Fórmula 1"]
@@ -35,7 +35,7 @@
         "nome": "Lando Norris", 
         "equipe": "McLaren", 
         "pais": "Reino Unido", 
-        "podios": "43",
+        "podios": "44",
         "link": "https://www.formula1.com/en/drivers/lando-norris.html",
         "foto": "https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/1col/image.png",
         "tags": ["Lando Norris", "McLaren", "Reino Unido", "Ascendente", "Fórmula 1"]
@@ -45,7 +45,7 @@
 
         "equipe": "McLaren", 
         "pais": "Austrália", 
-        "podios": "24",
+        "podios": "26",
         "link": "https://www.formula1.com/en/drivers/oscar-piastri.html",
         "foto": "https://www.formula1.com/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png.transform/1col/image.png",
         "tags": ["Oscar Piastri", "McLaren", "Austrália", "Novato", "Fórmula 1"]
@@ -55,7 +55,7 @@
 
         "equipe": "Mercedes", 
         "pais": "Reino Unido", 
-        "podios": "23",
+        "podios": "24",
         "link": "https://www.formula1.com/en/drivers/george-russell.html",
         "foto": "https://www.formula1.com/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/1col/image.png",
         "tags": ["George Russell", "Mercedes", "Reino Unido", "Promissor", "Fórmula 1"]
@@ -65,7 +65,7 @@
 
         "equipe": "Mercedes", 
         "pais": "Itália", 
-        "podios": "2",
+        "podios": "3",
         "link": "https://www.formula1.com/en/drivers/kimi-antonelli",
         "foto": "https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5829.png&w=350&h=254",
         "tags": ["Andrea Kimi Antonelli", "Mercedes", "Itália", "Estreante", "Fórmula 1"]
@@ -75,7 +75,7 @@
 
         "equipe": "Williams", 
         "pais": "Espanha", 
-        "podios": "28",
+        "podios": "29",
         "link": "https://www.formula1.com/en/drivers/carlos-sainz.html",
          "foto": "https://www.formula1.com/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/1col/image.png",
          "tags": ["Carlos Sainz", "Williams", "Espanha", "Espanhol", "Fórmula 1"]

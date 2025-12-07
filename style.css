@@ -527,3 +527,22 @@ body {
   .dyslexia-font {
     font-family: "OpenDyslexic" !important;
   }
+  
+.champion-section {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    animation: slideDown 0.7s ease-out forwards, pulse 2s infinite 0.7s;
+    opacity: 0;
+}
+
+.champion-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+    animation: slideDown 0.7s ease-out forwards, pulse 2s infinite 0.7s;
+    opacity: 0;
+}
