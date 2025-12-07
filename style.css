@@ -409,6 +409,70 @@ body {
     }
 }
 
+    }
+}
+
+/* --- Seção das Tabelas de Pilotos e Construtores --- */
+.table-section {
+    padding: 40px 20px;
+    background-color: #121212; /* Fundo igual ao body */
+}
+
+.table-container {
+    max-width: 1000px;
+    margin: 0 auto 40px auto; /* Espaçamento entre as tabelas */
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    overflow-x: auto; /* Garante que a tabela seja rolável em telas pequenas */
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse; /* Remove o espaço entre as células */
+    color: #e0e0e0;
+}
+
+.table-container th,
+.table-container td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #333; /* Linha separadora */
+}
+
+.table-container thead th {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    color: #e10600;
+    text-transform: uppercase;
+}
+
+.table-container tbody tr:hover {
+    background-color: #2a2a2a; /* Efeito de hover nas linhas */
+}
+
+.table-container tbody td {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+/* Estilo para o nome do piloto/equipe para dar mais destaque */
+.table-container .main-info {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.table-container .team-name {
+    font-style: italic;
+    color: #cccccc;
+}
+
+/* --- Media Queries para Responsividade --- */
+
+
+
 
   .accessibility-menu {
     position: fixed;
@@ -481,6 +545,68 @@ body {
 
 /* --- Media Queries para Responsividade --- */
 
+@media (max-width: 500px) {
+    .header {
+        padding: 30px 10px;
+    }
+
+    .title {
+        font-size: 2.2rem; /* Reduz o tamanho do título principal */
+    }
+
+    .subtitle {
+        font-size: 1rem; /* Reduz o tamanho do subtítulo */
+    }
+
+    .stats {
+        flex-direction: column; /* Empilha os itens de estatísticas */
+        gap: 25px;
+    }
+
+    .section-title {
+        font-size: 1.8rem; /* Reduz o título das seções */
+    }
+
+    .card-container {
+        grid-template-columns: 1fr; /* Força uma única coluna */
+        padding: 20px 10px;
+        align-items: center;
+        width: 95%;
+    }
+
+    .card-content {
+        flex-direction: column; /* Empilha a foto e as informações do piloto */
+        text-align: center;
+    }
+
+    .news-container {
+        grid-template-columns: 1fr; /* Força uma única coluna para notícias */
+    }
+
+    .quiz-options {
+        grid-template-columns: 1fr; /* Força uma única coluna para as opções do quiz */
+    }
+
+    .footer-links {
+        flex-direction: row; /* Empilha os links do rodapé */
+        gap: 10px;
+    }
+
+    .footer p{
+        width: 45ch;
+        text-align: center;
+    }
+
+     .table-container {
+        padding: 20px 15px;
+    }
+    
+    .table-section{
+        padding: 20px 15px;
+    }
+}
+
+
 /* Para telas menores, como smartphones (até 360px) */
 @media (max-width: 360px) {
     .header {
@@ -525,7 +651,20 @@ body {
     }
 
     .footer-links {
-        flex-direction: column; /* Empilha os links do rodapé */
+        flex-direction: row; /* Empilha os links do rodapé */
         gap: 10px;
+        align-items: center;
+    }
+
+    .footer p{
+        width: 39ch;
+        text-align: center;
+    }
+
+    .table-container {
+        padding: 20px 15px;
+    }
+    .table-section{
+        padding: 20px 15px;
     }
 }
