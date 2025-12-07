@@ -130,8 +130,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, auto));
     gap: 20px;
-    padding: 40px 20px;
-    width: 50%;
+    padding: 10px 0 0 10px;
     margin: 0 auto;
 }
 
@@ -410,73 +409,6 @@ body {
     }
 }
 
-@media (max-width: 768px) {
-    header { /* Estilos para telas com largura máxima de 768px */
-        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
-        padding: 1rem; /* Reduz o espaçamento interno */
-    }
-
-    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
-        text-align: center; /* Centraliza o texto */
-        margin-bottom: 1rem; /* Adiciona margem inferior */
-    }
-
-    div input { /* Estilos para o input em telas menores */
-        width: 90vw; /* Largura baseada na largura da viewport */
-        font-size: 1.2rem; /* Reduz o tamanho da fonte */
-    }
-
-    main { /* Estilos para o main em telas menores */
-        padding: 0 1rem;
-        justify-self: center;
-        margin: 0 auto;
-        align-items: center;
-         /* Adiciona espaçamento lateral */
-    }
-
-    article:hover { /* Estilos para o article em telas menores */
-        transform: none; /* Remove o efeito de escala ao passar o mouse */
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
-        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
-        max-width: 70%; /* Define uma largura máxima */
-        word-wrap: break-word; /* Permite a quebra de palavras longas */
-    }
-
-    .quiz-options {
-        grid-template-columns: 1fr; /* Opções em uma única coluna */
-    }
-
-
-    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
-    div input::placeholder {
-        font-size: 1rem; /* Reduz o tamanho da fonte */
-    }
-
-    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
-        font-size: 1.3rem; /* Reduz o tamanho da fonte */
-    }
-
-    div { /* Estilos para a div do cabeçalho em telas muito pequenas */
-        display: flex; /* Habilita flexbox */
-        align-items: center; /* Alinha itens ao centro */
-        justify-content: center; /* Centraliza itens */
-        flex-direction: column; /* Organiza em coluna */
-        gap: 0.5rem; /* Espaçamento entre os itens */
-    }
-
-    .footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé */
-    }
-
-    button { /* Estilos para o botão em telas muito pequenas */
-        margin-top: 1rem; /* Adiciona margem no topo */
-    }
-}
-
 
   .accessibility-menu {
     position: fixed;
@@ -545,4 +477,55 @@ body {
     margin-top: 15px;
     animation: slideDown 0.7s ease-out forwards, pulse 2s infinite 0.7s;
     opacity: 0;
+}
+
+/* --- Media Queries para Responsividade --- */
+
+/* Para telas menores, como smartphones (até 360px) */
+@media (max-width: 360px) {
+    .header {
+        padding: 30px 10px;
+    }
+
+    .title {
+        font-size: 2.2rem; /* Reduz o tamanho do título principal */
+    }
+
+    .subtitle {
+        font-size: 1rem; /* Reduz o tamanho do subtítulo */
+    }
+
+    .stats {
+        flex-direction: column; /* Empilha os itens de estatísticas */
+        gap: 25px;
+    }
+
+    .section-title {
+        font-size: 1.8rem; /* Reduz o título das seções */
+    }
+
+    .card-container {
+        grid-template-columns: 1fr; /* Força uma única coluna */
+        padding: 20px 10px;
+        align-items: center;
+        width: 95%;
+    }
+
+    .card-content {
+        flex-direction: column; /* Empilha a foto e as informações do piloto */
+        text-align: center;
+    }
+
+    .news-container {
+        grid-template-columns: 1fr; /* Força uma única coluna para notícias */
+    }
+
+    .quiz-options {
+        grid-template-columns: 1fr; /* Força uma única coluna para as opções do quiz */
+    }
+
+    .footer-links {
+        flex-direction: column; /* Empilha os links do rodapé */
+        gap: 10px;
+    }
 }
