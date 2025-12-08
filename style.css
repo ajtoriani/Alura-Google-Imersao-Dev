@@ -469,60 +469,9 @@ body {
     color: #cccccc;
 }
 
-/* --- Media Queries para Responsividade --- */
-
-
-
-
-  .accessibility-menu {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    z-index: 9999;
-    width: 180px;
-    font-family: Arial, sans-serif;
-  }
-
-  .accessibility-menu button {
-    width: 100%;
-    margin: 5px 0;
-    padding: 8px;
-    border: none;
-    border-radius: 8px;
-    background: #e6e6e6;
-    cursor: pointer;
-    font-size: 14px;
-  }
-
-  .accessibility-menu button:hover {
-    background: #d3d3d3;
-  }
-
-  /* Alto contraste */
-  .high-contrast {
-    background: #000 !important;
-    color: #fff !important;
-  }
-
-  .high-contrast * {
-    background: #000 !important;
-    color: #fff !important;
-    border-color: #fff !important;
-  }
-
-  /* Fonte para dislexia */
-  @font-face {
-      font-family: "OpenDyslexic";
-      src: url("https://cdn.jsdelivr.net/gh/antijingoist/open-dyslexic/alternatives/OpenDyslexic-Regular.otf");
-  }
-
-  .dyslexia-font {
-    font-family: "OpenDyslexic" !important;
-  }
+.uai{
+    top: 260px;
+}
   
 .champion-section {
     text-align: center;
@@ -604,6 +553,11 @@ body {
     .table-section{
         padding: 20px 15px;
     }
+
+    .uai{
+        right: -13px;
+        top: 300px;
+    }
 }
 
 
@@ -666,5 +620,10 @@ body {
     }
     .table-section{
         padding: 20px 15px;
+    }
+
+    .uai{
+        right: -18px;
+        top: 280px;
     }
 }
